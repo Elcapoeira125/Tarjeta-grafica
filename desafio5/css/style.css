@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    margin: 60;
+    padding: 5;
+}
+body{
+    font-family: Georgia, 'Times New Roman';
+    background-color: rgb(250, 247, 250);
+    padding: 5px;
+    background-color: #bb0808;
+}
+.card-container{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+.card{
+    background-color: rgb(10, 10, 10,24);
+    border-radius: 40px;
+    box-shadow: 0 7px 9px rgb(0, 0, 0,1,7);
+    overflow: hidden;
+    width: 350px;
+    transition: transform 0,35 ease;
+}
+.card img{
+    width: 40vh;
+    height: 250px;
+    object-fit: cover;
+}
+.card-container{
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+}
+.card h3{
+    margin-bottom: 25px;
+    color: #e7f0f0;
+}
+.card p{
+    color: #f7f2f2;
+    margin-bottom: 20px;
+}
+.card button{
+    background:linear-gradient(to right,#e42929,#5c0264);
+    color: #e7f0f0;
+    border: 0;
+   padding: 8px;
+   font-size: 15px;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+}
+.card botton{
+    background:linear-gradient(to right,#e42929,#5c0264);
+    color: #ebf1f1;
+    border: 0;
+   padding: 8px;
+   font-size: 15px;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+}
+.card-botton:hover{
+   background-color: #020f1f;
+}
+.card:hover{
+    transform: scale(1.05);
+}
